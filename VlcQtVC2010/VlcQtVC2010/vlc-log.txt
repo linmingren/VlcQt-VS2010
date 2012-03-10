@@ -1,0 +1,1381 @@
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 13.926 ms - Total 13.926 ms / 1 intvls (Avg 13.926 ms)
+main debug: looking for interface module: 1 candidate
+main debug: using interface module "hotkeys"
+main debug: TIMER module_need() : 6.017 ms - Total 6.017 ms / 1 intvls (Avg 6.017 ms)
+main debug: Creating an input for 'rtp://:2626'
+main debug: using timeshift granularity of 50 MiB, in path 'C:\DOCUME~1\mingren.lin\LOCALS~1\Temp'
+main debug: `rtp://@:2626' gives access `rtp' demux `' path `@:2626'
+main debug: creating demux: access='rtp' demux='' location='@:2626' file='\\@:2626'
+main debug: looking for access_demux module: 1 candidate
+main debug: net: opening any datagram port 2626
+main debug: using access_demux module "rtp"
+main debug: TIMER module_need() : 95.975 ms - Total 95.975 ms / 1 intvls (Avg 95.975 ms)
+main debug: looking for meta reader module: 2 candidates
+lua debug: Trying Lua scripts in C:\Documents and Settings\mingren.lin\Application Data\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader
+lua debug: Trying Lua playlist script D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader\filename.luac
+main debug: no meta reader module matching "any" could be loaded
+main debug: TIMER module_need() : 143.251 ms - Total 143.251 ms / 1 intvls (Avg 143.251 ms)
+main debug: `rtp://@:2626' successfully opened
+main debug: control: stopping input
+main debug: removing module "rtp"
+main debug: TIMER input launching for 'rtp://:2626' : 259.343 ms - Total 259.343 ms / 1 intvls (Avg 259.343 ms)
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 11.556 ms - Total 11.556 ms / 1 intvls (Avg 11.556 ms)
+main debug: looking for interface module: 1 candidate
+main debug: using interface module "hotkeys"
+main debug: TIMER module_need() : 5.232 ms - Total 5.232 ms / 1 intvls (Avg 5.232 ms)
+main debug: Creating an input for '11.ts'
+main debug: using timeshift granularity of 50 MiB, in path 'C:\DOCUME~1\mingren.lin\LOCALS~1\Temp'
+main debug: `file:///d:/11.ts' gives access `file' demux `' path `/d:/11.ts'
+main debug: creating demux: access='file' demux='' location='/d:/11.ts' file='d:\11.ts'
+main debug: looking for access_demux module: 3 candidates
+main debug: no access_demux module matching "file" could be loaded
+main debug: TIMER module_need() : 15.001 ms - Total 15.001 ms / 1 intvls (Avg 15.001 ms)
+main debug: creating access 'file' location='/d:/11.ts', path='d:\11.ts'
+main debug: looking for access module: 3 candidates
+filesystem debug: opening file `d:\11.ts'
+main debug: using access module "filesystem"
+main debug: TIMER module_need() : 13.020 ms - Total 13.020 ms / 1 intvls (Avg 13.020 ms)
+main debug: Using stream method for AStream*
+main debug: starting pre-buffering
+main debug: received first data after 0 ms
+main debug: pre-buffering done 1024 bytes in 0s - 513 KiB/s
+main debug: looking for stream_filter module: 4 candidates
+main debug: no stream_filter module matching "any" could be loaded
+main debug: TIMER module_need() : 39.810 ms - Total 39.810 ms / 1 intvls (Avg 39.810 ms)
+main debug: looking for stream_filter module: 1 candidate
+main debug: using stream_filter module "stream_filter_record"
+main debug: TIMER module_need() : 6.378 ms - Total 6.378 ms / 1 intvls (Avg 6.378 ms)
+main debug: creating demux: access='file' demux='' location='/d:/11.ts' file='d:\11.ts'
+main debug: looking for demux module: 55 candidates
+ts warning: lost synchro
+ts debug: skipping 170 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 152 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 134 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 116 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 98 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 80 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 62 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 44 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 26 bytes of garbage
+ts debug: pid[721] unknown
+ts debug: pid[724] unknown
+ts debug: pid[720] unknown
+ts debug: PATCallBack called
+ts debug: new PAT ts_id=7051 version=1 current_next=1
+ts debug:   * number=45 pid=720
+ts debug: PMTCallBack called
+ts debug: new PMT program number=45 version=1 pid_pcr=721
+ts debug:   * es pid=721 type=128 dr->i_tag=0x83
+ts debug:   * es pid=721 type=128 dr->i_tag=0x86
+ts debug:   * es pid=721 type=128 fcc=mpgv
+main debug: selecting program id=45
+ts debug:   * es pid=724 type=129 dr->i_tag=0xa
+ts debug: found language: eng
+ts debug:   * es pid=724 type=129 fcc=a52 
+filesystem warning: unimplemented query 4097 in control
+main debug: using demux module "ts"
+main debug: TIMER module_need() : 370.421 ms - Total 370.421 ms / 1 intvls (Avg 370.421 ms)
+main debug: looking for a subtitle file in d:
+main debug: looking for decoder module: 31 candidates
+avcodec debug: libavcodec initialized (interface 0x352400)
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 3 thread(s) for decoding
+avcodec debug: ffmpeg codec (MPEG-1/2 Video) started
+avcodec debug: using slice thread mode with 3 threads
+main debug: using decoder module "avcodec"
+main debug: TIMER module_need() : 181.893 ms - Total 181.893 ms / 1 intvls (Avg 181.893 ms)
+main debug: looking for packetizer module: 21 candidates
+main debug: using packetizer module "packetizer_mpegvideo"
+main debug: TIMER module_need() : 27.103 ms - Total 27.103 ms / 1 intvls (Avg 27.103 ms)
+main debug: looking for decoder module: 31 candidates
+main debug: using decoder module "a52"
+main debug: TIMER module_need() : 4.811 ms - Total 4.811 ms / 1 intvls (Avg 4.811 ms)
+ts debug: DEMUX_SET_GROUP 0 00000000
+main debug: looking for meta reader module: 2 candidates
+lua debug: Trying Lua scripts in C:\Documents and Settings\mingren.lin\Application Data\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader
+lua debug: Trying Lua playlist script D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader\filename.luac
+main debug: no meta reader module matching "any" could be loaded
+main debug: TIMER module_need() : 27.486 ms - Total 27.486 ms / 1 intvls (Avg 27.486 ms)
+main debug: `file:///d:/11.ts' successfully opened
+ts warning: first packet for pid=724 cc=0x9
+ts warning: first packet for pid=721 cc=0xb
+main debug: Buffering 0%
+a52 debug: A/52 channels:2 samplerate:48000 bitrate:128000
+main debug: Buffering 30%
+main debug: creating audio output
+mapain dckebug: Buffering 61%
+etizer_mpegvideo debug: waiting for sequence start
+main debug: looking for audio output module: 2 candidates
+aout_directx debug: Opening DirectSound Audio Output
+packetizer_mpegvideo debug: waiting for sequence start
+main debug: Buffering 92%
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_main debug: Stream buffering done (368 ms in 51 ms)
+mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+aout_directx debug: found device: Primary Sound Driver
+aout_directx debug: found device: SRS Premium Sound
+aout_directx debug: found device: IDT Audio
+aout_directx debug: device supports 2 channels (DEFAULT!)
+aout_directx debug: device supports 1 channel
+aout_directx debug: Windows says your SpeakerConfig is stereo
+aout_directx debug: creating DirectSoundThread
+aout_directx debug: DirectSoundThread ready
+main debug: using audio output module "aout_directx"
+main debug: TIMER module_need() : 276.953 ms - Total 276.953 ms / 1 intvls (Avg 276.953 ms)
+main debug: output 's16l' 48000 Hz Stereo frame=1 samples/4 bytes
+main debug: mixer 'f32l' 48000 Hz Stereo frame=1 samples/8 bytes
+main debug: filter(s) 'f32l'->'s16l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+audio_format debug: f32l->s16l, bits per sample: 32->16
+main debug: using audio filter module "audio_format"
+main debug: TIMER module_need() : 38.473 ms - Total 38.473 ms / 1 intvls (Avg 38.473 ms)
+main debug: conversion pipeline completed
+main debug: looking for audio mixer module: 2 candidates
+main debug: using audio mixer module "float32_mixer"
+main debug: TIMER module_need() : 15.290 ms - Total 15.290 ms / 1 intvls (Avg 15.290 ms)
+main debug: input 'a52 ' 48000 Hz Stereo frame=1536 samples/512 bytes
+main debug: looking for audio filter module: 1 candidate
+scaletempo debug: format: 48000 rate, 2 nch, 4 bps, fl32
+scaletempo debug: params: 30 stride, 0.200 overlap, 14 search
+scaletempo debug: 1.000 scale, 1440.000 stride_in, 1440 stride_out, 1152 standing, 288 overlap, 672 search, 2400 queue, fl32 mode
+main debug: using audio filter module "scaletempo"
+main debug: TIMER module_need() : 19.508 ms - Total 19.508 ms / 1 intvls (Avg 19.508 ms)
+main debug: filter(s) 'a52 '->'f32l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+main debug: using audio filter module "a52tofloat32"
+main debug: TIMER module_need() : 6.854 ms - Total 6.854 ms / 1 intvls (Avg 6.854 ms)
+main debug: conversion pipeline completed
+main debug: filter(s) 'f32l'->'f32l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: conversion pipeline completed
+main debug: filter(s) 'f32l'->'f32l' 52800 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+main debug: using audio filter module "samplerate"
+main debug: TIMER module_need() : 16.712 ms - Total 16.712 ms / 1 intvls (Avg 16.712 ms)
+main debug: conversion pipeline completed
+main debug: End of audio preroll
+main debug: Decoder buffering done in 410 ms
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: audio output out of sync, adjusting dates (190636 us)
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: not synchronized (190641 us), resampling
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (189661), dropping buffer
+pmaacikentiz erw_mparning: buffer too late  (157661), up-sampling
+egvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: audio output out of sync, adjusting dates (98686 us)
+main warning: not synchronized (98691 us), resampling
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (256332), drpoapcpkientgi bzeurf_fmepr
+egvideo debug: waiting for sequence start
+main warning: buffer way too late (224332), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (192332), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: size 528x480 fps=29.970
+main debug: looking for text renderer module: 2 candidates
+freetype debug: Using Arial as font from file C:\WINDOWS\Fonts\ARIAL.TTF
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+main debug: TIMER module_need() : 41.047 ms - Total 41.047 ms / 1 intvls (Avg 41.047 ms)
+main debug: looking for video filter2 module: 18 candidates
+main debug: Adding CC track 1 for es[721]
+main debug: Adding CC track 2 for es[721]
+main debug: Adding CC track 3 for es[721]
+main debug: Adding CC track 4 for es[721]
+swscale debug: 32x32 chroma: YUVA -> 16x16 chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video filter2 module "swscale"
+main debug: TIMER module_need() : 44.860 ms - Total 44.860 ms / 1 intvls (Avg 44.860 ms)
+main debug: looking for video filter2 module: 18 candidates
+yuvp debug: YUVP to YUVA converter
+main debug: using video filter2 module "yuvp"
+main debug: TIMER module_need() : 57.134 ms - Total 57.134 ms / 1 intvls (Avg 57.134 ms)
+main debug: Deinterlacing available
+main debug: deinterlace 0, mode blend, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module: 6 candidates
+direct3d debug: creating Vout EventThread
+direct3d debug: DirectXCreateWindow
+main debug: looking for vout window hwnd module: 2 candidates
+main debug: using vout window hwnd module "drawable"
+main debug: TIMER module_need() : 7.492 ms - Total 7.492 ms / 1 intvls (Avg 7.492 ms)
+direct3d debug: created video sub-window
+direct3d debug: Vout EventThread running
+direct3d debug: disabling screen saver
+main debug: VoutDisplayEvent 'resize' 648x524 window
+direct3d warning: trying surface pixel format: YV12
+direct3d debug: selected surface pixel format is YV12
+direct3d debug: Using D3DTEXF_LINEAR for minification
+direct3d debug: Using D3DTEXF_LINEAR for magnification
+direct3d debug: Direct3D scene created successfully
+direct3d debug: Direct3D device adapter successfully initialized
+main debug: using vout display module "direct3d"
+main debug: TIMER module_need() : 203.188 ms - Total 203.188 ms / 1 intvls (Avg 203.188 ms)
+main debug: original format sz 528x480, of (0,0), vsz 528x480, 4cc I420, sar 40:33, msk r0x0 g0x0 b0x0
+main debug: removing modulem "aifrne edtyepbeu"g
+: VoutDisplayEvent 'resize' 618x404 window
+main debug: looking for text remnadienr eerr rmoord:u lFea:i l2e dc atnod isdeatt eosn
+ top
+freetype debug: Using Arial as font from file C:\WINDOWS\Fonts\ARIAL.TTF
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+main debug: TIMER module_need() : 15.598 ms - Total 15.598 ms / 1 intvls (Avg 15.598 ms)
+avcodec debug: using direct rendering
+main debug: End of video preroll
+direct3d debug: Created 52x27 texture for OSD
+main debug: Post-processing available
+main debug: Detected interlaced video
+main debug: deinterlace 0, mode blend, is_needed 1
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main warning: resampling stopped after 22588036 usec (drift: 3252)
+main warning: computed PTS is out of range (1308963), clearing omuati
+n error: ES_OUT_SET_(GROUP_m)aPiCnR   isw caallredn toio nlatg: PTS is out of re a(npgtes _(d1e3l0a5y7 1i1n)c,r edarsoepdp itnog  3b0u0f fmesr)
+
+main warning: computed PTS is out of range (1313068), clearing out
+main warnmianign:  ePTSr rios oru:t  ofE Sr_aOnUgTe_ R(E127S7E8T1_6P)C, dRr ocppianlgl ebdu
+ffer
+main warning: early picture skipped
+main debug: End of audio preroll
+main debug: Buffering 0%
+main debug: Buffering 30%
+main debug: Buffermianign  6d1e%b
+ug: End of video preroll
+main debug: Received first picture
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 12 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (13909), dropping buffer
+main warning: PTS is out of range (-16688), dropping buffer
+main warning: early picture skipped
+ts debug: Seek():i_head_pos:0, i_tail_pos:22079472
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 47 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 118 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 83 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 101 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:5
+ts warning: discontinuity received 0x7 instead of 0xc (pid=724)
+ts warning: discontinuity received 0xd instead of 0x2 (pid=721)
+main debug: End of amuadiino  dperbeurgo:l lB
+uffering 0%
+ts debug: PATCallBack called
+main debug: Buffering 30%
+main debug: Buffering 61%
+ts debug: PMTCallBack called
+main debug: Bumfafienr idnegb u9g2:%
+ End of video preroll
+main debug: Received first picture
+main debug: Stream buffering done (368 ms in 36 ms)
+main debug: Decoder buffering done in 17 ms
+main warning: PTS is out of range (-7320), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:22079472, i_tail_pos:44160824
+ts debug: Seek():can find a time position. i_cnt:0
+ts warning: discontinuity received 0xc instead of 0x5 (pid=721)
+ts warning: discontinuity received 0x2 instead of 0x1 (pid=724)
+ts debug: PATCallBack called
+ts debug: PMTCallBack called
+main debug: Enmda ionf  daeubduigo:  pBruefrfoelrli
+ng 0%
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 6 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-15087), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:44160824, i_tail_pos:66199500
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 141 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 24 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:2
+ts warning: discontinuity received 0xf instead of 0xc (pid=724)
+ts debug: PATCallBack called
+ts warning: discontinuity received 0x1 instead of 0xc (pid=721)
+ts debug: PMTCallBack called
+mamian ind edbeubgu:g :E nBdu foffe raiundgi o0 %p
+reroll
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 7 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-19992), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:44160824, i_tail_pos:66199500
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 141 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 24 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 59 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 136 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 4 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:5
+ts warning: discontinuity received 0x5 instead of 0x9 (pid=724)
+ts debug: PATCallBack called
+main debug: maiEn debug: nBufferindg 0%
+ of audio preroll
+ts debug: PMTCallBack called
+main debug: Buffering 30%
+main dembauign:  dEenbdu go:f  Bvuifdfeeor ipnrge ro61l%l
+
+main debug: Received first picture
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 8 ms)
+main debug: Decoder buffering done in 13 ms
+mmaaiinn  wwaarrnniinngg::  PeTaSr liys  poiuctt uorfe  rsaknigpep e(d-2
+2814), dropping maibuffer
+n warning: early picture skipped
+main warning: early picture skipped
+main warning: early picture skipped
+main warning: early picture skipped
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:44160824, i_tail_pos:66199500
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 47 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 165 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 130 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 54 bytes of garbage
+main debug: auto hiding mouse cursor
+ts warning: lost synchro
+ts debug: skipping 110 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 138 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:6
+ts debug: PATCallBack called
+ts warning: discontinuity received 0xe instead of 0x0 (pid=724)
+ts warning: discontinuity received 0xb instead of 0x8 (pid=721)
+mmaaiinn  ddeebbuugg::  EBnudf foefr ianugd i0o% 
+preroll
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 6 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-8458), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:44160824, i_tail_pos:66199500
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 47 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 118 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 153 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:3
+ts warning: discontinuity received 0xd instead of 0x9 (pid=724)
+ts warning: discontinuity received 0x4 instead of 0xa (pid=721)
+ts debug: PATCallBack called
+ts debug: PMTCallBack called
+mamiani nd edbeubgu:g :B uEfnfde orifn ga u0d%i
+o preroll
+main debug: Buffering 30%
+main debug: End of video preroll
+main debumag:in  dBeubfufge:r iRnegce 6i1%
+ved first picture
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 15 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-29554), dropping buffer
+main warning: early picture skipped
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:44160824, i_tail_pos:66199500
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 47 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 118 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 153 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 77 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 21 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:5
+ts warning: discontinuity received 0xf instead of 0x7 (pid=724)
+ts warning: discontinuity received 0x9 instead of 0xc (pid=721)
+ts debug: PMTCallBack called
+ts debug: PATCallBack called
+main debug: End of audio preroll
+main debug: Buffering 0%
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 7 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-3633), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:66199500, i_tail_pos:88286116
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 141 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 71 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:4
+ts warning: discontinuity received 0x5 instead of 0x4 (pid=721)
+ts warning: discontinuity received 0x2 instead of 0xa (pid=724)
+main dtesb udge:b uEgn:d  PoAfT CaauldliBoa cpkr ecraolllle
+d
+main debug: Buffering 0%
+ts debug: PMTCallBack called
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 7 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-28545), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:66199500, i_tail_pos:88286116
+ts debug: Seek():can find a time position. i_cnt:0
+ts warning: discontinuity received 0xa instead of 0xc (pid=724)
+main debug: End of audio preroll
+main debug: Buffering 0%
+ts debug: PATCallBack called
+ts debug: PMTCallBack called
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debumga:i nE dnedb oufg :v iBduefof eprrienrgo l9l2
+%
+main debug: Received first picture
+main debug: Stream buffering done (368 ms in 11 ms)
+main debug: Decoder buffering done in 13 ms
+main warning: PTS is out of range (-1757), dropping buffer
+main warning: PTS is out of range (-32574), dropping buffer
+main warning: early picture skipped
+ts debug: Seek():i_head_pos:66199500, i_tail_pos:88286116
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 47 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 118 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:4
+ts debug: PATCallBack called
+main debug: End of audio preroll
+main debug: Buffering 0%
+main debug: Buffering 30%
+ts debug: PMTCallBack called
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: maSint rdeeabmu g:b uEfnfde roifn vgi ddeoon ep re(ro3l6l8
+ ms in 9 ms)
+main debug: Received first picture
+main debug: Decoder buffering done in 13 ms
+main warning: PTS is out of range (-969), dropping buffer
+main warning: PTS is outm aoifn  rwaanrgnei n(g-:3 1e8a2r2l)y,  pdircotpuprien gs kbiupfpfeedr
+
+main warning: early picture skipped
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:110363520, i_tail_pos:132405392
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 141 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 118 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 130 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 136 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:5
+ts debug: PATCallBack called
+ts debug: PMTCallBack called
+ts warning: discontinuity received 0xf instead of 0xe (pid=721)
+maimna idne bduegb:u gE:n dB uofff earuidnigo  0p%r
+eroll
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 7 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-27357), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:132405392, i_tail_pos:154470764
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 141 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:1
+ts warning: discontinuity received 0x0 instead of 0xf (pid=724)
+ts warning: discontinuity received 0xb instead of 0xa (pid=721)
+main debug: End of audio preroll
+main debug: Buffering 0%
+ts debug: PATCallBack called
+main debug: Buffering 30%
+ts debug: PMTCallBack called
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 11 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-5279), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:154470764, i_tail_pos:176536136
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 47 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 165 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:2
+ts warning: discontinuity received 0x6 instead of 0xf (pid=721)
+ts warning: discontinuity received 0x3 instead of 0x9 (pid=724)
+ts debug: PATCallBack called
+main debug:m aEinnd  doefb uagu:d iBou fpfreerrionlgl 
+0%
+main debug: Buffering 30%
+ts debug: PMTCallBack called
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 8 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-31601), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:154470764, i_tail_pos:176536136
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 47 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 165 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 36 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 7 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 180 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:5
+ts debug: PMTCallBack called
+ts warning: discontinuity received 0xe instead of 0xd (pid=724)
+ts debug: PATCallBack called
+main debmuagi:n  Endd eobfu ga:u dBiuof fperreirnogl l0
+%
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffermianign  9d2eb%u
+g: End of video preroll
+main debug: Received first picture
+main debug: Stream buffering done (368 ms in 11 ms)
+main debug: Decoder buffering done in 1 ms
+main warning: audio output out of sync, adjusting dates (60530 us)
+main warning: not synchronized (60534 us), resampling
+main warning: buffer too late  (60534), up-sampling
+main warning: early picture skipped
+ts debug: Seek():i_head_pos:154470764, i_tail_pos:176536136
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 141 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 24 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 153 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 124 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 109 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:5
+ts warning: discontinuity received 0x2 instead of 0xf (pid=721)
+main debug: End of audio preroll
+main debug: Buffering 0%
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 8 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (18772), dropping buffer
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+main warning: received buffer in the future
+ts debug: Seek():i_head_pos:154470764, i_tail_pos:176536136
+ts warning: lost synchro
+ts debug: skipping 94 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 141 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 24 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 153 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 124 bytes of garbage
+ts debug: Seek():can find a time position. i_cnt:4
+ts debug: PATCallBack called
+ts warning: discontinuity received 0xc instead of 0x4 (pid=724)
+ts warning: discontinuity received 0x0 instead of 0x9 (pid=721)
+maminai dn edbeubgu:g :E nBdu foffe raiundgi o0 %p
+reroll
+ts debug: PMTCallBack called
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 10 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-26979), dropping buffer
+main warning: audio output out of sync, adjusting dates (88966 us)
+main warning: not synchronized (88975 us), resampling
+main warning: buffer too late  (88975), up-sampling
+main debug: auto hiding mouse cursor
+main debug: End of video preroll
+main warning: picture is too late to be displayed (missing 42 ms)
+main debug: auto hiding mouse cursor
+main debug: control: stopping input
+main warning: can't get output picture
+avcodec warning: disabling direct rendering
+avcodec warning: cannot decode one frame (18144 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (11504 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (13368 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (19280 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (11896 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (12120 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (23992 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (9728 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (8400 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (33112 bytes)
+main warning: can't get output picture
+avcodec warning: cannot decode one frame (9296 bytes)
+main debug: removing module "avcodec"
+avcodec debug: ffmpeg codec (MPEG-1/2 Video) stopped
+main debug: killing decoder fourcc `mpgv', 0 PES in FIFO
+main debug: saving a free vout
+main debug: reusing provided vout
+main debug: removing module "packetizer_mpegvideo"
+main debug: removing module "a52"
+main debug: killing decoder fourcc `a52 ', 0 PES in FIFO
+main debug: removing module "a52tofloat32"
+main debug: removing module "scaletempo"
+main debug: removing module "samplerate"
+main debug: removing module "aout_directx"
+aout_directx debug: closing audio device
+aout_directx debug: DirectSoundThread exiting
+main debug: removing module "audio_format"
+main debug: removing module "float32_mixer"
+main debug: releasing audio output
+main debug: removing module "ts"
+ts debug: pid list:
+ts debug:   - pid[0] seen
+ts debug:   - pid[720] seen
+ts debug:   - pid[721] seen
+main debug: Program doesn't contain anymore ES
+ts debug:   - pid[724] seen
+ts debug:   - pid[8191] seen
+main debug: removing module "stream_filter_record"
+main debug: removing module "filesystem"
+main debug: TIMER input launching for '11.ts' : 762.455 ms - Total 762.455 ms / 1 intvls (Avg 762.455 ms)
+main debug: destroying useless vout
+main debug: removing module "direct3d"
+direct3d debug: Direct3D scene released successfully
+direct3d debug: DirectXEventThread terminating
+direct3d debug: DirectXCloseWindow
+direct3d debug: WinProc WM_DESTROY
+main debug: removing module "freetype"
+main debug: removing module "yuvp"
+main debug: removing module "swscale"
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 13.516 ms - Total 13.516 ms / 1 intvls (Avg 13.516 ms)
+main debug: looking for interface module: 1 candidate
+main debug: using interface module "hotkeys"
+main debug: TIMER module_need() : 5.373 ms - Total 5.373 ms / 1 intvls (Avg 5.373 ms)
+main debug: Creating an input for '11.tsff'
+main debug: using timeshift granularity of 50 MiB, in path 'C:\DOCUME~1\mingren.lin\LOCALS~1\Temp'
+main debug: `file:///d:/11.tsff' gives access `file' demux `' path `/d:/11.tsff'
+main debug: creating demux: access='file' demux='' location='/d:/11.tsff' file='d:\11.tsff'
+main debug: looking for access_demux module: 3 candidates
+main debug: no access_demux module matching "file" could be loaded
+main debug: TIMER module_need() : 12.799 ms - Total 12.799 ms / 1 intvls (Avg 12.799 ms)
+main debug: creating access 'file' location='/d:/11.tsff', path='d:\11.tsff'
+main debug: looking for access module: 3 candidates
+filesystem debug: opening file `d:\11.tsff'
+filesystem error: cannot open file d:\11.tsff (No such file or directory)
+main error: File reading failed
+main error: VLC could not open the file "d:\11.tsff". (No such file or directory)
+main debug: no access module matching "file" could be loaded
+main debug: TIMER module_need() : 15.019 ms - Total 15.019 ms / 1 intvls (Avg 15.019 ms)
+main error: open of `file:///d:/11.tsff' failed
+main error: Your input can't be opened
+main error: VLC is unable to open the MRL 'file:///d:/11.tsff'. Check the log for details.
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 11.644 ms - Total 11.644 ms / 1 intvls (Avg 11.644 ms)
+main debug: looking for interface module: 1 candidate
+main debug: using interface module "hotkeys"
+main debug: TIMER module_need() : 4.992 ms - Total 4.992 ms / 1 intvls (Avg 4.992 ms)
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 11.926 ms - Total 11.926 ms / 1 intvls (Avg 11.926 ms)
+main debug: looking for interface module: 1 candidate
+main debug: using interface module "hotkeys"
+main debug: TIMER module_need() : 5.677 ms - Total 5.677 ms / 1 intvls (Avg 5.677 ms)
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 10.996 ms - Total 10.996 ms / 1 intvls (Avg 10.996 ms)
+main debug: looking for interface module: 1 candidate
+main debug: using interface module "hotkeys"
+main debug: TIMER module_need() : 7.520 ms - Total 7.520 ms / 1 intvls (Avg 7.520 ms)
+main debug: Creating an input for '11.ts'
+main debug: using timeshift granularity of 50 MiB, in path 'C:\DOCUME~1\mingren.lin\LOCALS~1\Temp'
+main debug: `file:///d:/11.ts' gives access `file' demux `' path `/d:/11.ts'
+main debug: creating demux: access='file' demux='' location='/d:/11.ts' file='d:\11.ts'
+main debug: looking for access_demux module: 3 candidates
+main debug: no access_demux module matching "file" could be loaded
+main debug: TIMER module_need() : 15.030 ms - Total 15.030 ms / 1 intvls (Avg 15.030 ms)
+main debug: creating access 'file' location='/d:/11.ts', path='d:\11.ts'
+main debug: looking for access module: 3 candidates
+filesystem debug: opening file `d:\11.ts'
+main debug: using access module "filesystem"
+main debug: TIMER module_need() : 11.286 ms - Total 11.286 ms / 1 intvls (Avg 11.286 ms)
+main debug: Using stream method for AStream*
+main debug: starting pre-buffering
+main debug: received first data after 0 ms
+main debug: pre-buffering done 1024 bytes in 0s - 565 KiB/s
+main debug: looking for stream_filter module: 4 candidates
+main debug: no stream_filter module matching "any" could be loaded
+main debug: TIMER module_need() : 15.174 ms - Total 15.174 ms / 1 intvls (Avg 15.174 ms)
+main debug: looking for stream_filter module: 1 candidate
+main debug: using stream_filter module "stream_filter_record"
+main debug: TIMER module_need() : 5.463 ms - Total 5.463 ms / 1 intvls (Avg 5.463 ms)
+main debug: creating demux: access='file' demux='' location='/d:/11.ts' file='d:\11.ts'
+main debug: looking for demux module: 55 candidates
+ts warning: lost synchro
+ts debug: skipping 170 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 152 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 134 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 116 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 98 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 80 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 62 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 44 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 26 bytes of garbage
+ts debug: pid[721] unknown
+ts debug: pid[724] unknown
+ts debug: pid[720] unknown
+ts debug: PATCallBack called
+ts debug: new PAT ts_id=7051 version=1 current_next=1
+ts debug:   * number=45 pid=720
+ts debug: PMTCallBack called
+ts debug: new PMT program number=45 version=1 pid_pcr=721
+ts debug:   * es pid=721 type=128 dr->i_tag=0x83
+ts debug:   * es pid=721 type=128 dr->i_tag=0x86
+ts debug:   * es pid=721 type=128 fcc=mpgv
+main debug: selecting program id=45
+ts debug:   * es pid=724 type=129 dr->i_tag=0xa
+ts debug: found language: eng
+ts debug:   * es pid=724 type=129 fcc=a52 
+filesystem warning: unimplemented query 4097 in control
+main debug: using demux module "ts"
+main debug: TIMER module_need() : 169.631 ms - Total 169.631 ms / 1 intvls (Avg 169.631 ms)
+main debug: looking for a subtitle file in d:
+main debug: looking for decoder module: 31 candidates
+avcodec debug: libavcodec initialized (interface 0x352400)
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 3 thread(s) for decoding
+avcodec debug: ffmpeg codec (MPEG-1/2 Video) started
+avcodec debug: using slice thread mode with 3 threads
+main debug: using decoder module "avcodec"
+main debug: TIMER module_need() : 73.513 ms - Total 73.513 ms / 1 intvls (Avg 73.513 ms)
+main debug: looking for packetizer module: 21 candidates
+main debug: using packetizer module "packetizer_mpegvideo"
+main debug: TIMER module_need() : 25.874 ms - Total 25.874 ms / 1 intvls (Avg 25.874 ms)
+main debug: looking for decoder module: 31 candidates
+main debug: using decoder module "a52"
+main debug: TIMER module_need() : 3.881 ms - Total 3.881 ms / 1 intvls (Avg 3.881 ms)
+ts debug: DEMUX_SET_GROUP 0 00000000
+main debug: looking for meta reader module: 2 candidates
+lua debug: Trying Lua scripts in C:\Documents and Settings\mingren.lin\Application Data\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader
+lua debug: Trying Lua playlist script D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader\filename.luac
+main debug: no meta reader module matching "any" could be loaded
+main debug: TIMER module_need() : 23.448 ms - Total 23.448 ms / 1 intvls (Avg 23.448 ms)
+main debug: `file:///d:/11.ts' successfully opened
+ts warning: first packet for pid=724 cc=0x9
+ts warning: first packet for pid=721 cc=0xb
+main debug: Buffering 0%
+a52 debug: A/52 channels:2 samplerate:48000 bitrate:128000
+main debug: Buffering 30%
+packetizer_mpegvideo demain debug: creating audio output
+bug: waiting for sequence start
+main debug: Buffering 61%
+main debug: looking for audio output module: 2 candidates
+aout_directx debug: Opening DirectSound Audio Output
+main debug: Buffering 92%
+packetizer_mpegvideo debumain debug: Stream buffering done (368 ms in 62 ms)
+g: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+aout_directx debug: found device: Primary Sound Driver
+aout_directx debug: found device: SRS Premium Sound
+aout_directx debug: found device: IDT Audio
+aout_directx debug: device supports 2 channels (DEFAULT!)
+aout_directx debug: device supports 1 channel
+aout_directx debug: Windows says your SpeakerConfig is stereo
+aout_directx debug: creating DirectSoundThread
+aout_directx debug: DirectSoundThread ready
+main debug: using audio output module "aout_directx"
+main debug: TIMER module_need() : 150.828 ms - Total 150.828 ms / 1 intvls (Avg 150.828 ms)
+main debug: output 's16l' 48000 Hz Stereo frame=1 samples/4 bytes
+main debug: mixer 'f32l' 48000 Hz Stereo frame=1 samples/8 bytes
+main debug: filter(s) 'f32l'->'s16l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+audio_format debug: f32l->s16l, bits per sample: 32->16
+main debug: using audio filter module "audio_format"
+main debug: TIMER module_need() : 38.038 ms - Total 38.038 ms / 1 intvls (Avg 38.038 ms)
+main debug: conversion pipeline completed
+main debug: looking for audio mixer module: 2 candidates
+main debug: using audio mixer module "float32_mixer"
+main debug: TIMER module_need() : 5.737 ms - Total 5.737 ms / 1 intvls (Avg 5.737 ms)
+main debug: input 'a52 ' 48000 Hz Stereo frame=1536 samples/512 bytes
+main debug: looking for audio filter module: 1 candidate
+scaletempo debug: format: 48000 rate, 2 nch, 4 bps, fl32
+scaletempo debug: params: 30 stride, 0.200 overlap, 14 search
+scaletempo debug: 1.000 scale, 1440.000 stride_in, 1440 stride_out, 1152 standing, 288 overlap, 672 search, 2400 queue, fl32 mode
+main debug: using audio filter module "scaletempo"
+main debug: TIMER module_need() : 17.702 ms - Total 17.702 ms / 1 intvls (Avg 17.702 ms)
+main debug: filter(s) 'a52 '->'f32l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+main debug: using audio filter module "a52tofloat32"
+main debug: TIMER module_need() : 6.212 ms - Total 6.212 ms / 1 intvls (Avg 6.212 ms)
+main debug: conversion pipeline completed
+main debug: filter(s) 'f32l'->'f32l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: conversion pipeline completed
+main debug: filter(s) 'f32l'->'f32l' 52800 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+main debug: using audio filter module "samplerate"
+main debug: TIMER module_need() : 5.139 ms - Total 5.139 ms / 1 intvls (Avg 5.139 ms)
+main debug: conversion pipeline completed
+main debug: End of audio preroll
+main debug: Decoder buffering done in 225 ms
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: audio output out of sync, adjusting dates (192312 us)
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: not synchronized (192317 us), resampling
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (191337), dropping buffer
+mapaickneti zewr_mapergvindeio dnebgug:: w aitbinug fforf seequrenc e tstaort
+o late  (159337), up-sampling
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: audio output out of sync, adjusting dates (124963 us)
+main warning: not synchronized (124968 us), resampling
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (284285), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (252285), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (220285), dropping buffer
+main warning: buffer way too late (188285), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: size 528x480 fps=29.970
+main debug: looking for text renderer module: 2 candidates
+freetype debug: Using Arial as font from file C:\WINDOWS\Fonts\ARIAL.TTF
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+main debug: TIMER module_need() : 11.576 ms - Total 11.576 ms / 1 intvls (Avg 11.576 ms)
+main debug: looking for video filter2 module: 18 candidates
+swscale debug: 32x32 chroma: YUVA -> 16x16 chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video filter2 module "swscale"
+main debug: TIMER module_need() : 22.490 ms - Total 22.490 ms / 1 intvls (Avg 22.490 ms)
+main debug: looking for video filter2 module: 18 candidates
+main debug: Adding CC track 1 for es[721]
+main debug: Adding CC track 2 for es[721]
+main debug: Adding CC track 3 for es[721]
+main debug: Adding CC track 4 for es[721]
+yuvp debug: YUVP to YUVA converter
+main debug: using video filter2 module "yuvp"
+main debug: TIMER module_need() : 87.074 ms - Total 87.074 ms / 1 intvls (Avg 87.074 ms)
+main debug: Deinterlacing available
+main debug: deinterlace 0, mode blend, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module: 6 candidates
+direct3d debug: creating Vout EventThread
+direct3d debug: DirectXCreateWindow
+main debug: looking for vout window hwnd module: 2 candidates
+main debug: using vout window hwnd module "drawable"
+main debug: TIMER module_need() : 5.551 ms - Total 5.551 ms / 1 intvls (Avg 5.551 ms)
+direct3d debug: created video sub-window
+direct3d debug: Vout EventThread running
+direct3d debug: disabling screen saver
+main debug: VoutDisplayEvent 'resize' 648x524 window
+direct3d warning: trying surface pixel format: YV12
+direct3d debug: selected surface pixel format is YV12
+direct3d debug: Using D3DTEXF_LINEAR for minification
+direct3d debug: Using D3DTEXF_LINEAR for magnification
+direct3d debug: Direct3D scene created successfully
+direct3d debug: Direct3D device adapter successfully initialized
+main debug: using vout display module "direct3d"
+main debug: TIMER module_need() : 72.546 ms - Total 72.546 ms / 1 intvls (Avg 72.546 ms)
+main debug: original format sz 528x480, of (0,0), vsz 528x480, 4cc I420, sar 40:33, msk r0x0 g0x0 b0x0
+main debug: removing module "freetype"
+main debug: VoutDisplayEvent 'resize' 618x404 window
+main debug: looking for text renderer module: 2 candidates
+main error: Failed to set on top
+freetype debug: Using Arial as font from file C:\WINDOWS\Fonts\ARIAL.TTF
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+main debug: TIMER module_need() : 7.109 ms - Total 7.109 ms / 1 intvls (Avg 7.109 ms)
+avcodec debug: using direct rendering
+main debug: End of video preroll
+direct3d debug: Created 52x27 texture for OSD
+main debug: Post-processing available
+main debug: Detected interlaced video
+main debug: deinterlace 0, mode blend, is_needed 1
+main debug: auto hiding mouse cursor
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 11.504 ms - Total 11.504 ms / 1 intvls (Avg 11.504 ms)
+main debug: looking for interface module: 1 candidate
+main debug: using interface module "hotkeys"
+main debug: TIMER module_need() : 4.551 ms - Total 4.551 ms / 1 intvls (Avg 4.551 ms)
+main debug: Creating an input for '11.ts'
+main debug: using timeshift granularity of 50 MiB, in path 'C:\DOCUME~1\mingren.lin\LOCALS~1\Temp'
+main debug: `file:///d:/11.ts' gives access `file' demux `' path `/d:/11.ts'
+main debug: creating demux: access='file' demux='' location='/d:/11.ts' file='d:\11.ts'
+main debug: looking for access_demux module: 3 candidates
+main debug: no access_demux module matching "file" could be loaded
+main debug: TIMER module_need() : 15.371 ms - Total 15.371 ms / 1 intvls (Avg 15.371 ms)
+main debug: creating access 'file' location='/d:/11.ts', path='d:\11.ts'
+main debug: looking for access module: 3 candidates
+filesystem debug: opening file `d:\11.ts'
+main debug: using access module "filesystem"
+main debug: TIMER module_need() : 10.802 ms - Total 10.802 ms / 1 intvls (Avg 10.802 ms)
+main debug: Using stream method for AStream*
+main debug: starting pre-buffering
+main debug: received first data after 0 ms
+main debug: pre-buffering done 1024 bytes in 0s - 517 KiB/s
+main debug: looking for stream_filter module: 4 candidates
+main debug: no stream_filter module matching "any" could be loaded
+main debug: TIMER module_need() : 17.118 ms - Total 17.118 ms / 1 intvls (Avg 17.118 ms)
+main debug: looking for stream_filter module: 1 candidate
+main debug: using stream_filter module "stream_filter_record"
+main debug: TIMER module_need() : 5.624 ms - Total 5.624 ms / 1 intvls (Avg 5.624 ms)
+main debug: creating demux: access='file' demux='' location='/d:/11.ts' file='d:\11.ts'
+main debug: looking for demux module: 55 candidates
+ts warning: lost synchro
+ts debug: skipping 170 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 152 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 134 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 116 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 98 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 80 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 62 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 44 bytes of garbage
+ts warning: lost synchro
+ts debug: skipping 26 bytes of garbage
+ts debug: pid[721] unknown
+ts debug: pid[724] unknown
+ts debug: pid[720] unknown
+ts debug: PATCallBack called
+ts debug: new PAT ts_id=7051 version=1 current_next=1
+ts debug:   * number=45 pid=720
+ts debug: PMTCallBack called
+ts debug: new PMT program number=45 version=1 pid_pcr=721
+ts debug:   * es pid=721 type=128 dr->i_tag=0x83
+ts debug:   * es pid=721 type=128 dr->i_tag=0x86
+ts debug:   * es pid=721 type=128 fcc=mpgv
+main debug: selecting program id=45
+ts debug:   * es pid=724 type=129 dr->i_tag=0xa
+ts debug: found language: eng
+ts debug:   * es pid=724 type=129 fcc=a52 
+filesystem warning: unimplemented query 4097 in control
+main debug: using demux module "ts"
+main debug: TIMER module_need() : 174.407 ms - Total 174.407 ms / 1 intvls (Avg 174.407 ms)
+main debug: looking for a subtitle file in d:
+main debug: looking for decoder module: 31 candidates
+avcodec debug: libavcodec initialized (interface 0x352400)
+avcodec debug: trying to use direct rendering
+avcodec debug: allowing 3 thread(s) for decoding
+avcodec debug: ffmpeg codec (MPEG-1/2 Video) started
+avcodec debug: using slice thread mode with 3 threads
+main debug: using decoder module "avcodec"
+main debug: TIMER module_need() : 80.996 ms - Total 80.996 ms / 1 intvls (Avg 80.996 ms)
+main debug: looking for packetizer module: 21 candidates
+main debug: using packetizer module "packetizer_mpegvideo"
+main debug: TIMER module_need() : 26.962 ms - Total 26.962 ms / 1 intvls (Avg 26.962 ms)
+main debug: looking for decoder module: 31 candidates
+main debug: using decoder module "a52"
+main debug: TIMER module_need() : 3.977 ms - Total 3.977 ms / 1 intvls (Avg 3.977 ms)
+ts debug: DEMUX_SET_GROUP 0 00000000
+main debug: looking for meta reader module: 2 candidates
+lua debug: Trying Lua scripts in C:\Documents and Settings\mingren.lin\Application Data\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader
+lua debug: Trying Lua playlist script D:\tu\cpp\vlc-2.0.0-win32\vlc-2.0.0\lua\meta\reader\filename.luac
+main debug: no meta reader module matching "any" could be loaded
+main debug: TIMER module_need() : 25.215 ms - Total 25.215 ms / 1 intvls (Avg 25.215 ms)
+main debug: `file:///d:/11.ts' successfully opened
+ts warning: first packet for pid=724 cc=0x9
+ts warning: first packet for pid=721 cc=0xb
+main debug: Buffering 0%
+a52 debug: A/52 channels:2 samplerate:48000 bitrate:128000
+main debug: Buffering 30%
+main debug: creating audio output
+packetizer_mpegvideo debug: waiting for sequence start
+main debug: Buffering 61%
+main debug: looking for audio output module: 2 candidates
+aout_directx debug: Opening DirectSound Audio Output
+main debug: Buffering 92%
+packetimain debug: Stream buffering done (368 ms in 64 ms)
+zer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+aout_directx debug: found device: Primary Sound Driver
+aout_directx debug: found device: SRS Premium Sound
+aout_directx debug: found device: IDT Audio
+aout_directx debug: device supports 2 channels (DEFAULT!)
+aout_directx debug: device supports 1 channel
+aout_directx debug: Windows says your SpeakerConfig is stereo
+aout_directx debug: creating DirectSoundThread
+aout_directx debug: DirectSoundThread ready
+main debug: using audio output module "aout_directx"
+main debug: TIMER module_need() : 152.993 ms - Total 152.993 ms / 1 intvls (Avg 152.993 ms)
+main debug: output 's16l' 48000 Hz Stereo frame=1 samples/4 bytes
+main debug: mixer 'f32l' 48000 Hz Stereo frame=1 samples/8 bytes
+main debug: filter(s) 'f32l'->'s16l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+audio_format debug: f32l->s16l, bits per sample: 32->16
+main debug: using audio filter module "audio_format"
+main debug: TIMER module_need() : 38.157 ms - Total 38.157 ms / 1 intvls (Avg 38.157 ms)
+main debug: conversion pipeline completed
+main debug: looking for audio mixer module: 2 candidates
+main debug: using audio mixer module "float32_mixer"
+main debug: TIMER module_need() : 5.805 ms - Total 5.805 ms / 1 intvls (Avg 5.805 ms)
+main debug: input 'a52 ' 48000 Hz Stereo frame=1536 samples/512 bytes
+main debug: looking for audio filter module: 1 candidate
+scaletempo debug: format: 48000 rate, 2 nch, 4 bps, fl32
+scaletempo debug: params: 30 stride, 0.200 overlap, 14 search
+scaletempo debug: 1.000 scale, 1440.000 stride_in, 1440 stride_out, 1152 standing, 288 overlap, 672 search, 2400 queue, fl32 mode
+main debug: using audio filter module "scaletempo"
+main debug: TIMER module_need() : 18.329 ms - Total 18.329 ms / 1 intvls (Avg 18.329 ms)
+main debug: filter(s) 'a52 '->'f32l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+main debug: using audio filter module "a52tofloat32"
+main debug: TIMER module_need() : 6.775 ms - Total 6.775 ms / 1 intvls (Avg 6.775 ms)
+main debug: conversion pipeline completed
+main debug: filter(s) 'f32l'->'f32l' 48000 Hz->48000 Hz Stereo->Stereo
+main debug: conversion pipeline completed
+main debug: filter(s) 'f32l'->'f32l' 52800 Hz->48000 Hz Stereo->Stereo
+main debug: looking for audio filter module: 14 candidates
+main debug: using audio filter module "samplerate"
+main debug: TIMER module_need() : 5.605 ms - Total 5.605 ms / 1 intvls (Avg 5.605 ms)
+main debug: conversion pipeline completed
+main debug: End of audio preroll
+main debug: Decoder buffering done in 233 ms
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: audio output out of sync, adjusting dates (190262 us)
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: not synchronized (190267 us), resampling
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (189287), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer too late  (157287), up-sampling
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: audio output out of sync, adjusting dates (96064 us)
+main warning: not synchronized (96069 us), resampling
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (253336), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (221336), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: waiting for sequence start
+main warning: buffer way too late (189336), dropping buffer
+packetizer_mpegvideo debug: waiting for sequence start
+packetizer_mpegvideo debug: size 528x480 fps=29.970
+main debug: looking for text renderer module: 2 candidates
+freetype debug: Using Arial as font from file C:\WINDOWS\Fonts\ARIAL.TTF
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+main debug: TIMER module_need() : 11.887 ms - Total 11.887 ms / 1 intvls (Avg 11.887 ms)
+main debug: looking for video filter2 module: 18 candidates
+swscale debug: 32x32 chroma: YUVA -> 16x16 chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video filter2 module "swscale"
+main debug: TIMER module_need() : 23.549 ms - Total 23.549 ms / 1 intvls (Avg 23.549 ms)
+main debug: looking for video filter2 module: 18 candidates
+main debug: Adding CC track 1 for es[721]
+main debug: Adding CC track 2 for es[721]
+main debug: Adding CC track 3 for es[721]
+main debug: Adding CC track 4 for es[721]
+yuvp debug: YUVP to YUVA converter
+main debug: using video filter2 module "yuvp"
+main debug: TIMER module_need() : 79.331 ms - Total 79.331 ms / 1 intvls (Avg 79.331 ms)
+main debug: Deinterlacing available
+main debug: deinterlace 0, mode blend, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module: 6 candidates
+direct3d debug: creating Vout EventThread
+direct3d debug: DirectXCreateWindow
+main debug: looking for vout window hwnd module: 2 candidates
+main debug: using vout window hwnd module "drawable"
+main debug: TIMER module_need() : 5.472 ms - Total 5.472 ms / 1 intvls (Avg 5.472 ms)
+direct3d debug: created video sub-window
+direct3d debug: Vout EventThread running
+direct3d debug: disabling screen saver
+main debug: VoutDisplayEvent 'resize' 648x524 window
+direct3d warning: trying surface pixel format: YV12
+direct3d debug: selected surface pixel format is YV12
+direct3d debug: Using D3DTEXF_LINEAR for minification
+direct3d debug: Using D3DTEXF_LINEAR for magnification
+direct3d debug: Direct3D scene created successfully
+direct3d debug: Direct3D device adapter successfully initialized
+main debug: using vout display module "direct3d"
+main debug: TIMER module_need() : 72.015 ms - Total 72.015 ms / 1 intvls (Avg 72.015 ms)
+main debug: original format sz 528x480, of (0,0), vsz 528x480, 4cc I420, sar 40:33, msk r0x0 g0x0 b0x0
+main debug: removing module "freetype"
+main debug: VoutDisplayEvent 'resize' 618x404 window
+main debug: looking for text renderer module: 2 candidates
+main error: Failed to set on top
+freetype debug: Using Arial as font from file C:\WINDOWS\Fonts\ARIAL.TTF
+freetype debug: using fontsize: 2
+main debug: using text renderer module "freetype"
+main debug: TIMER module_need() : 6.964 ms - Total 6.964 ms / 1 intvls (Avg 6.964 ms)
+avcodec debug: using direct rendering
+main debug: End of video preroll
+direct3d debug: Created 52x27 texture for OSD
+main debug: Post-processing available
+main debug: Detected interlaced video
+main debug: deinterlace 0, mode blend, is_needed 1
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main warning: resampling stopped after 22138263 usec (drift: 727)
+main warning: audio output out of sync, adjusting dates (64540 us)
+main warning: not synchronized (64546 us), resampling
+main warning: buffer too late  (63819), up-sampling
+main warning: audio output out of sync, adjusting dates (-40085 us)
+main warning: not synchronized (-40081 us), resampling
+main warning: resampling stopped after 14010373 usec (drift: 40408)
+main warning: buffer too early (-40408), down-sampling
+main debug: auto hiding mouse cursor
+main warning: resampling stopped after 11158102 usec (drift: -613)
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main debug: auto hiding mouse cursor
+main warning: computed PTS is out of range (506880), clearing out
+main erromra:i nE Sw_aOrUnTi_nSgE:T _P(TGSR OiUsP_)PC Rout  o fi sr acnaglel e(5d0 7t4o9o3 )l,a tder o(ppptisn_gd ebluafyf eirn
+creased to 300 ms)
+main warning: commpauitne de rPrToSr :i ES_OUT_RESEsT _oPuCtR  ocfa lrlaendg
+e (515434), clearing out
+main warning: PTS is out of range (484047), dropping buffer
+main warning: early picture skipped
+main debug: End of audio preroll
+main debug: Buffering 0%
+main debug: Buffering 30%
+main debug: Buffering 61%
+main debug: Buffering 92%
+main debug: Stream buffering done (368 ms in 23 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (5193), dropping buffer
+main warning: PTS is out of range (-23294), dropping buffer
+main warning: computed PTS is out of range (1085226), clearing out
+main warning: PTS is out of range (1085226), dropping buffer
+main warning: computed PTS is out of range (1087117m)a,i nc learing out
+error: ES_OUTm_aSiEnT _w(aGrRnOiUnPg_:) PPCTRS   iiss  ocuatl loefd  rtaonog el a(t1e0 5(5p1t1s7_)d,e ldaryo pipnicnrge absuefdf etro
+ 791 ms)
+main error: ES_OUT_RESET_PCR called
+main debug: End of audio preroll
+main debug: Buffering 0%
+main debug: Buffering 11%
+main debug: Buffering 23%
+main debug: Buffering 34%
+main debug: Buffering 46%
+main debug: Buffering 58%
+main debug: Buffering 69%
+main debug: Buffering 81%
+main debug: Buffering 93%
+main debug: Stream buffering done (829 ms in 19 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-4624), dropping buffer
+main warning: PTS is out of range (-35771), dropping buffer
+main debug: End of video preroll
+main warning: picture is too late to be displayed (missing 24 ms)
+main warning: computed PTS is out of range (584604), clearing out
+main warning: PTS is out of range (584604), dropping buffer
+main warning: computed PTS is out of range (586816), clearing out
+main warning: PTS is out of range (554816), dropping buffer
+main warning: computed PTS is out of range (589300m)a,i nc leerarroirn:g  EoSu_tO
+UT_SET_(GROUP_)PCR  is cmaalilne dw atronoi nlga:t eP T(Sp tiss_ doeulta yo fi nrcarnegaes e(d5 2t5o3 0103)44 ms)
+, dropping buffer
+main error: ES_OUT_RESET_PCR called
+main warning: early picture skipped
+main debug: End of audio preroll
+main debug: Buffering 0%
+main debug: Buffering 6%
+main debug: Buffering 13%
+main debug: Buffering 20%
+main debug: Buffering 27%
+main debug: Buffering 34%
+main debug: Buffering 41%
+main debug: Buffering 47%
+main debug: Buffering 54%
+main dembauign:  dBeubfufge:r iEnngd  6o1f% 
+video preroll
+main debug: Received first picture
+main debug: Buffering 68%
+main debug: Buffering 75%
+main debug: Buffering 82%
+main debug: Buffering 89%
+main debug: Buffering 95%
+main debug: Stream buffering done (1382 ms in 30 ms)
+main debug: Decoder buffering done in 0 ms
+main warning: PTS is out of range (-8744), dropping buffer
+main warning: PTS is out of range (-39521), dropping buffer
+main debug: auto hiding mouse cursor
+main debug: control: stopping input
+main debug: removing module "avcodec"
+avcodec debug: ffmpeg codec (MPEG-1/2 Video) stopped
+main debug: killing decoder fourcc `mpgv', 0 PES in FIFO
+main debug: saving a free vout
+main debug: reusing provided vout
+main debug: removing module "packetizer_mpegvideo"
+main debug: removing module "a52"
+main debug: killing decoder fourcc `a52 ', 0 PES in FIFO
+main debug: removing module "a52tofloat32"
+main debug: removing module "scaletempo"
+main debug: removing module "samplerate"
+main debug: removing module "aout_directx"
+aout_directx debug: closing audio device
+aout_directx debug: DirectSoundThread exiting
+main debug: removing module "audio_format"
+main debug: removing module "float32_mixer"
+main debug: releasing audio output
+main debug: removing module "ts"
+ts debug: pid list:
+ts debug:   - pid[0] seen
+ts debug:   - pid[720] seen
+ts debug:   - pid[721] seen
+main debug: Program doesn't contain anymore ES
+ts debug:   - pid[724] seen
+ts debug:   - pid[8191] seen
+main debug: removing module "stream_filter_record"
+main debug: removing module "filesystem"
+main debug: TIMER input launching for '11.ts' : 434.736 ms - Total 434.736 ms / 1 intvls (Avg 434.736 ms)
+main debug: destroying useless vout
+main debug: removing module "direct3d"
+direct3d debug: Direct3D scene released successfully
+direct3d debug: DirectXEventThread terminating
+direct3d debug: DirectXCloseWindow
+direct3d debug: WinProc WM_DESTROY
+main debug: removing module "freetype"
+main debug: removing module "yuvp"
+main debug: removing module "swscale"
